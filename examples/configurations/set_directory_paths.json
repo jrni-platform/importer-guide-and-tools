@@ -1,0 +1,9 @@
+{
+  "host": "hostname{i.e-localhost}",
+  "username": "username{i.e->dockeruser} default is: bookingbug",
+  "password": "password{for user}",
+  "port": "sftp port{i.e 2222} default is 22",
+  "schedule_cron": "how often to trigger {i.e => * * * * *}",
+  "base_folder" : "the base folder(s) this will be where files will be moved {i.e => bookingbug or /home/a/folder} default is bookingbug",
+  "upload_location": "the subfolder that import files are placed for import {i.e => a_folder} default is upload"
+}
