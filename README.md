@@ -2,6 +2,8 @@
 
 A mechanism to easily push configuration such as *Companies*, *People (staff)*, *Resources* and *Users* into BookingBug from an external source.
 
+[Loads of good information can be found in the wiki](https://github.com/BookingBug/importer-guide-and-tools/wiki)
+
 ![High level diagram](https://github.com/BookingBug/importer-specs/blob/master/visualisations/high-level-diagram.png)
 
 ## Why does the Importer exist?
