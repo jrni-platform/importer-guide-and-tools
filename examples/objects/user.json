@@ -1,0 +1,14 @@
+{
+  "name": "Antonietta Aufderhar IV",
+  "object_type": "user",
+  "company_external_ids": [
+    "a_company_external_id"
+  ],
+  "created_at": "2017-08-19T18:57:07+0100",
+  "last_modified": "2018-03-07T14:55:07+0000",
+  "external_id": "bnpid_antonietta",
+  "email": "antonietta_aufderhar@example.net",
+  "roles": [
+    "admin"
+  ]
+}

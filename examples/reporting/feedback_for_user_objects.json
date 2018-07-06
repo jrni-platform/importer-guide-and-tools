@@ -1,0 +1,43 @@
+{
+    "internal_reference": "36282102-f087-464a-b93f-dc216ce6af38",
+    "feed_name": "Fugit est deserunt nesciunt sit incidunt",
+    "created_at": "2018-06-06T11:05:13Z",
+    "started_at": "2018-06-06T11:05:13Z",
+    "completed_at": "2018-06-06T11:05:13Z",
+    "status": "completed_with_issues",
+    "objects_to_import": 4,
+    "objects_imported": 1,
+    "objects": [
+        {
+            "status": "updated",
+            "object_type": "user",
+            "object_external_id": "some-external-id-a"
+        },
+        {
+            "status": "failed",
+            "object_type": "user",
+            "object_external_id": "some-external-id-b",
+            "errors": [
+                "E-mail already in use by another user"
+            ]
+        },
+        {
+            "status": "skipped",
+            "object_type": "user",
+            "object_external_id": "some-external-id-c"
+        },
+        {
+            "status": "created",
+            "object_type": "user",
+            "object_external_id": "some-external-id-d"
+        },
+    ],
+    "_links": {
+        "self": {
+            "href": "/admin/36990/imports/36282102-f087-464a-b93f-dc216ce6af38"
+        },
+        "poll": {
+            "href": "/admin/36990/imports/36282102-f087-464a-b93f-dc216ce6af38"
+        }
+    }
+}

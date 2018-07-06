@@ -1,0 +1,24 @@
+{
+  "external_id": "bnpid_tristin",
+  "name": "Tristin Ruecker",
+  "description": "The job title",
+  "object_type": "person",
+  "company_external_ids": ["a_company_external_id"],
+  "created_at": "2017-10-12T17:33:57+0100",
+  "last_modified": "2018-03-07T14:41:57+0000",
+  "email": "tristin@example.org",
+  "telephone": "(541) 754-3010",
+  "ews": {
+    "enabled": true,
+    "email": "bret@example.org"
+  },
+  "extras": [
+    {
+      "key": "image_url",
+      "value": "http://www.example.com/image.jpeg"
+    }
+  ],
+  "schedules": {
+    "schedules_type": "default"
+  }
+}

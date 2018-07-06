@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "created_at": "2017-09-10T17:33:56+0100",
+    "feed_name": "The corporation"
+  },
+  "settings": {
+    "version": "0.0.1",
+    "actions": ["create", "update", "delete", "activate"]
+  },
+  "data": {
+    "people": [],
+    "companies": [],
+    "users": []
+    }
+  }
+}

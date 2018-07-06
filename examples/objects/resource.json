@@ -1,0 +1,18 @@
+{
+  "external_id": "a_company_external_id-room_a",
+  "object_type": "resource",
+  "name": "Room A",
+  "status": "live",
+  "created_at": "2017-09-24T17:33:57+0100",
+  "last_modified": "2018-03-07T13:27:57+0000",
+  "telephone": "153-013-9954",
+  "address": {
+    "line_1": "90907 Kuhic Field",
+    "line_2": "Apt. 999",
+    "line_3": "Apt. 138",
+    "locality": "Ardenmouth",
+    "region": "North Carolina",
+    "postal_code": "56918-5673",
+    "country": "Maldives"
+  }
+}

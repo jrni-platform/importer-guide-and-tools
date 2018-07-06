@@ -1,0 +1,25 @@
+{
+    "internal_reference": "36282102-f087-464a-b93f-dc216ce6af38",
+    "feed_name": "Fugit est deserunt nesciunt sit incidunt error.",
+    "created_at": "2018-06-06T11:05:13Z",
+    "started_at": "2018-06-06T11:05:13Z",
+    "completed_at": "2018-06-06T11:05:13Z",
+    "status": "completed",
+    "objects_to_import": 1,
+    "objects_imported": 1,
+    "objects": [
+        {
+            "status": "updated",
+            "object_type": "company",
+            "object_external_id": "some-external-id"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "/admin/36990/imports/36282102-f087-464a-b93f-dc216ce6af38"
+        },
+        "poll": {
+            "href": "/admin/36990/imports/36282102-f087-464a-b93f-dc216ce6af38"
+        }
+    }
+}
