@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "created_at": "2017-09-10T17:33:56+0100",
+    "feed_name": "The corporation"
+  },
+  "settings": {
+    "version": "0.0.1",
+    "type": "create/update",
+  },
+  "data": {
+    "people": [
+      {
+        "external_id": "msid_hash-tristin",
+        "name": "Tristin Ruecker",
+        "description": "The FA's job title",
+        "object_type": "person",
+        "company_external_ids": ["msid_hash-tristin"],
+        "created_at": "2017-10-12T17:33:57+0100",
+        "last_modified": "2018-03-07T14:41:57+0000",
+        "email": "bret@example.org",
+        "telephone": "(541) 754-3010",
+        "ews": {
+          "enabled": true,
+          "email": "bret@example.org"
+        },
+        "extras": [
+          {
+            "key": "image_url",
+            "value": "http://www.example.com/image.jpeg"
+          },
+          {
+            "key": "video_conferencing_enabled",
+            "value": true
+          }
+        ]
+      },
+      {
+        "external_id": "msid_hash-steve",
+        "name": "Steve Kautzer IV",
+        "description": "The FA's job title",
+        "object_type": "person",
+        "company_external_ids": ["msid_hash-steve"],
+        "created_at": "2017-09-09T17:33:57+0100",
+        "last_modified": "2018-03-07T14:51:57+0000",
+        "email": "brain_mclaughlin@example.net",
+        "ews": {
+          "enabled": true,
+          "email":  "brain_mclaughlin@example.net"
+        },
+        "extras": [
+          {
+            "key": "image_url",
+            "value": "http://www.example.com/image.jpeg"
+          },
+          {
+            "key": "video_conferencing_enabled",
+            "value": false
+          }
+        ],
+        "telephone": "(972) 567-0047"
+      }
+    ],
+    "companies": [
+      {
+        "external_id": "msid_hash-tristin",
+        "object_type": "company",
+        "address": {
+          "line_1": "90907 Kuhic Field",
+          "line_2": "Apt. 999",
+          "line_3": "Apt. 138",
+          "locality": "Ardenmouth",
+          "region": "North Carolina",
+          "postal_code": "56918-5673",
+          "country": "Maldives"
+        },
+        "name": "Tristin Ruecker",
+        "description": "The FA's job title",
+        "status": "live",
+        "resources": [
+          {
+            "external_id": "msid_hash-tristin-phone",
+            "object_type": "resource",
+            "name": "Phone",
+            "status": "live",
+            "created_at": "2017-10-15T17:33:57+0100",
+            "last_modified": "2018-03-07T14:22:57+0000",
+            "telephone": "153-013-9954"
+          },
+          {
+            "external_id": "msid_hash-tristin-video",
+            "object_type": "resource",
+            "name": "Video Conference",
+            "status": "live",
+            "created_at": "2017-10-02T17:33:57+0100",
+            "last_modified": "2018-03-07T14:47:57+0000"
+          },
+          {
+            "external_id": "msid_hash-tristin-office",
+            "object_type": "resource",
+            "name": "Branch",
+            "status": "live",
+            "created_at": "2017-09-24T17:33:57+0100",
+            "last_modified": "2018-03-07T13:27:57+0000",
+            "telephone": "153-013-9954",
+            "address": {
+              "line_1": "90907 Kuhic Field",
+              "line_2": "Apt. 999",
+              "line_3": "Apt. 138",
+              "locality": "Ardenmouth",
+              "region": "North Carolina",
+              "postal_code": "56918-5673",
+              "country": "Maldives"
+            }
+          }
+        ],
+        "created_at": "2017-11-18T16:33:57+0000",
+        "last_modified": "2018-03-07T13:58:57+0000",
+        "timezone": "America/Los_Angeles",
+        "telephone": "153-013-9954 x4255"
+      },
+      {
+        "external_id": "msid_hash-steve",
+        "object_type": "company",
+        "address": {
+          "line_1": "9009 Grant Highway",
+          "line_2": "Suite 830",
+          "line_3": "Apt. 335",
+          "locality": "Gutmannmouth",
+          "region": "Maine",
+          "postal_code": "33447-3310",
+          "country": "Sao Tome and Principe"
+        },
+        "name": "Stehr-Kunze",
+        "status": "live",
+        "description": "The FA's job title",
+        "resources": [
+          {
+            "external_id": "msid_hash-steve-phone",
+            "object_type": "resource",
+            "name": "Phone",
+            "status": "live",
+            "created_at": "2017-10-02T17:33:57+0100",
+            "last_modified": "2018-03-07T14:47:57+0000",
+            "telephone": "153-013-9954"
+          },
+          {
+            "external_id": "msid_hash-steve-office",
+            "object_type": "resource",
+            "name": "Gleason LLC",
+            "status": "live",
+            "created_at": "2017-10-12T17:33:57+0100",
+            "last_modified": "2018-03-07T14:04:57+0000",
+            "telephone": "153-013-9954",
+            "address": {
+              "line_1": "9009 Grant Highway",
+              "line_2": "Suite 830",
+              "line_3": "Apt. 335",
+              "locality": "Gutmannmouth",
+              "region": "Maine",
+              "postal_code": "33447-3310",
+              "country": "Sao Tome and Principe"
+            }
+          }
+        ],
+        "created_at": "2017-08-28T17:33:57+0100",
+        "last_modified": "2018-03-07T13:17:57+0000",
+        "timezone": "America/Los_Angeles",
+        "telephone": "1-846-660-2485 x19459"
+      }
+    ],
+    "users": [
+      {
+        "name": "Antonietta Aufderhar IV",
+        "object_type": "user",
+        "company_external_ids": [
+          "msid_hash-steve",
+          "msid_hash-tristin"
+        ],
+        "created_at": "2017-08-19T18:57:07+0100",
+        "last_modified": "2018-03-07T14:55:07+0000",
+        "external_id": "msid_hash-antonietta",
+        "email": "german_bechtelar@example.net",
+        "roles": [
+          "admin"
+        ]
+      }
+    ]
+  }
+}
