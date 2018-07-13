@@ -4,8 +4,7 @@
     "feed_name": "The corporation"
   },
   "settings": {
-    "version": "0.0.1",
-    "type": "create/update",
+    "version": "0.0.1"
   },
   "data": {
     "people": [
