@@ -32,7 +32,8 @@
             "key": "video_conferencing_enabled",
             "value": true
           }
-        ]
+        ],
+        "status": "live"
       },
       {
         "external_id": "msid_hash-steve",
@@ -57,7 +58,8 @@
             "value": false
           }
         ],
-        "telephone": "(972) 567-0047"
+        "telephone": "(972) 567-0047",
+        "status": "live"
       }
     ],
     "companies": [
@@ -182,7 +184,8 @@
         "email": "german_bechtelar@example.net",
         "roles": [
           "admin"
-        ]
+        ],
+        "status": "live"
       }
     ]
   }
