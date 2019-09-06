@@ -1,18 +1,18 @@
-# BookingBug Importer
+# JRNI Importer
 
-A mechanism to easily push configuration such as *Companies*, *People (staff)*, *Resources* and *Users* into BookingBug from an external source.
+A mechanism to easily push configuration such as *Companies*, *People (staff)*, *Resources* and *Users* into JRNI from an external source.
 
-[Loads of good information can be found in the wiki](https://github.com/BookingBug/importer-guide-and-tools/wiki)
+[Loads of good information can be found in the wiki](https://github.com/jrni-platform/importer-guide-and-tools/wiki)
 
-![High level diagram](https://github.com/BookingBug/importer-specs/blob/master/visualisations/high-level-diagram.png)
+![High level diagram](https://github.com/jrni-platform/importer-specs/blob/master/visualisations/high-level-diagram.png)
 
 ## Why does the Importer exist?
 
-There is a common need for clients/customer of BookingBug to sync their data with ours. Data such as branch/locations (companies) and People are required to allow BookingBug to correctly functionality and provide a Booking service.
+There is a common need for clients/customer of JRNI to sync their data with ours. Data such as branch/locations (companies) and People are required to allow JRNI to correctly functionality and provide a Booking service.
 
 ## Who is it for?
 
-The importer is aimed at large customers that want to automate the configuration of BookingBug. However, it can also be used do one-off uploaded for initial config.
+The importer is aimed at large customers that want to automate the configuration of JRNI. However, it can also be used do one-off uploaded for initial config.
 
 ### User cases:
 
@@ -29,7 +29,7 @@ The importer is aimed at large customers that want to automate the configuration
 #### Continuous Sync via SFTP site
 **Usercase:** A medium to large size business with an IT dept builds a file feed to our JSON schema that they drop onto their SFTP site.
 
-**Action:** A Importer FTP integration is set up to pull from this FTP site using credentials provided. The files are then pushed via HTTP into the BookingBug Importer API.
+**Action:** A Importer FTP integration is set up to pull from this FTP site using credentials provided. The files are then pushed via HTTP into the JRNI Importer API.
 
 ## Where does it live?
-Currently its accessible via the BookingBug Admin API. Login credentials are required.
+Currently its accessible via the JRNI Admin API. Login credentials are required.
